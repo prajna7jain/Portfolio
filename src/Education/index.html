@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prajna | Education</title>
+    <link rel="icon" type="image/svg+xml" href="../../Assets/title.svg" />
+    <link rel="stylesheet" href="../output.css" />
+    <link rel="stylesheet" href="../Education/education.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#111] text-white overflow-x-hidden">
+    <!-- NavBar -->
+    <nav class="w-screen h-[50px] p-8 flex justify-around">
+      <h1 class="lg:text-3xl text-2xl cursor-pointer w-max" id="logo">
+        <span class="text-[#f77f00]" id="ig-ayush">ig</span>-ayush
+      </h1>
+      <div id="menu-bar" class="lg:text-3xl text-2xl cursor-pointer">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!-- Nav Contetn -->
+    <nav
+      class="w-screen h-screen absolute top-0 justify-end backdrop-blur-sm z-20 hidden"
+      id="menu-nav"
+    >
+      <ul
+        id="menu"
+        class="relative bg-[#212529] lg:w-1/5 w-10/12 h-auto flex flex-col gap-[80px] pt-[100px] pl-[30px] p-5 text-2xl font-bold"
+      >
+        <li
+          class="w-full flex justify-end pr-5 absolute right-8 top-10 text-2xl hover:text-[#f77f00] duration-300"
+        >
+          <i class="fa-solid fa-xmark" id="menu-nav"></i>
+        </li>
+        <li class="hover:text-[#f77f00] duration-300">
+          <a href="../../index.html">Home</a>
+        </li>
+        <li class="hover:text-[#f77f00] duration-300">
+          <a href="../Projects/index.html">Projects</a>
+        </li>
+        <li class="hover:text-[#f77f00] duration-300">
+          <a href="../Connect/index.html">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Main content -->
+
+    <main>
+      <div
+        id="content-con"
+        class="w-screen xl:h-[90vh] h-auto flex flex-col justify-center items-center"
+      >
+        <h1
+          class="lg:text-4xl text-2xl font-bold p-8 mb-6 text-center"
+          data-aos="fade-out"
+          data-aos-duration="2000"
+        >
+          A Bit About Me <span class="text-[#f77f00]">&</span> My Education
+        </h1>
+        <div
+          id="content"
+          class="xl:w-[70%] lg:w-[90%] md:w-screen h-auto flex lg:flex-row flex-col"
+        >
+          <div
+            id="about-me"
+            class="lg:w-1/2 w-full lg:p-8 pl-4 flex flex-col items-center"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
+            <div
+              id="profile"
+              class="w-max p-10 rounded-full bg-white mb-8 lg:mb-0"
+            >
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 448 512"
+                class="text-8xl text-[#4D8685]"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"
+                ></path>
+              </svg>
+            </div>
+            <div id="text" class="lg:p-5">
+              <h1 class="lg:text-2xl text-lg font-bold lg:pl-5 p-1">
+                Hello Techies!
+              </h1>
+              <p
+                class="lg:text-xl text-lg font-semibold lg:p-5 p-1 [word-spacing:0.25rem]"
+              >
+                I'm Prajna M R a enthusiastic full stack software developer
+                with a strong interest in building real-world solutions. During
+                my academic journey, I always enjoyed the practical side of
+                learning — from writing code to building projects that connect
+                theory to real outcomes. <br />My education not only shaped my
+                technical foundation but also sparked my drive to keep
+                exploring, building, and improving every day.
+              </p>
+            </div>
+          </div>
+          <div
+            id="education"
+            class="lg:w-1/2 w-full p-10 flex flex-col"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
+            <h1 class="lg:text-3xl text-2xl font-bold pl-5 mt-14">
+              Education and Qualifications
+            </h1>
+            <ul
+              id="edu"
+              class="mt-8 ml-5 flex flex-col gap-[50px] border-l pl-10 relative"
+            >
+              <li class="relative">
+                <div
+                  class="w-3 h-3 bg-white rounded-full absolute left-[-45px] top-2"
+                ></div>
+                <p class="text-[#ced4da]">2022-2025</p>
+                <h1 class="lg:text-2xl text-lg font-bold">
+                  Bachelor of Computer Applications (BCA)
+                </h1>
+                <h2 class="lg:text-xl text-lg text-[#778da9] font-semibold">
+                  Graduated from SDM College, Ujire, affiliated with Mangalore
+                  University.
+                </h2>
+              </li>
+              <li class="relative">
+                <div
+                  class="w-3 h-3 bg-white rounded-full absolute left-[-45px] top-2"
+                ></div>
+                <p class="text-[#ced4da]">2020-2022</p>
+                <h1 class="lg:text-2xl text-lg font-bold">
+                  Pre-University Course (PUC)
+                </h1>
+                <h2 class="lg:text-xl text-lg text-[#778da9] font-semibold">
+                  Completed PUC in Commerce at Sri JCBM College, Sringeri, under
+                  Kuvempu University.
+                </h2>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <br /><br />
+    <hr />
+    <!-- Footer -->
+    <footer class="w-screen h-auto p-8">
+      <div id="footer-con" class="flex flex-col justify-center items-center">
+        <div id="tag">
+          <h1>Ayush Acharya &copy; 2025</h1>
+        </div>
+        <div id="logo" class="h-max w-max">
+          <!-- Logo -->
+          <svg
+            class="h-[180px]"
+            xmlns="http://www.w3.org/2000/svg"
+            width="150"
+            height="368"
+            viewBox="0 0 406 368"
+            fill="none"
+          >
+            <path
+              d="M314.899 203.5L314.899 349.43L162.5 209.053M314.899 203.5L283.037 203.586M314.899 203.5L337.881 203.586L381 171.109L314.899 171.109M162.5 209.053L118.044 170.96L157.5 171.109M162.5 209.053L65.5 301.465L20.5595 301.465L137.482 189.156M200.5 171.109L283.037 96.5L283.037 171.109M200.5 171.109L283.037 171.109M200.5 171.109L157.5 171.109M283.037 203.586L210.846 203.123L283.037 271.086L283.037 203.586ZM283.037 171.109L314.899 171.109M157.5 171.109L316.135 20.4322L314.899 171.109"
+              stroke="#1F2667"
+              stroke-opacity="0.9"
+              stroke-width="10"
+            />
+            <path
+              d="M314.899 203.5L314.899 349.43L162.5 209.053M314.899 203.5L283.037 203.586M314.899 203.5L337.881 203.586L381 171.109L314.899 171.109M162.5 209.053L118.044 170.96L157.5 171.109M162.5 209.053L65.5 301.465L20.5595 301.465L137.482 189.156M200.5 171.109L283.037 96.5L283.037 171.109M200.5 171.109L283.037 171.109M200.5 171.109L157.5 171.109M283.037 203.586L210.846 203.123L283.037 271.086L283.037 203.586ZM283.037 171.109L314.899 171.109M157.5 171.109L316.135 20.4322L314.899 171.109"
+              stroke="#f77f00"
+              stroke-width="10"
+            />
+          </svg>
+        </div>
+        <div id="media-link" class="">
+          <ul class="flex text-2xl gap-10">
+            <li>
+              <a href="https://www.linkedin.com/in/ayush-acharya-65943132b/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://x.com/ig_ayushacharya"
+                ><i class="fa-brands fa-square-x-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ig__ayushachar/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-envelope"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/ig-ayush"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="../Education/education.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
