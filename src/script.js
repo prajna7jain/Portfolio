@@ -102,5 +102,5 @@ Connect.addEventListener(
 const resumeDownlodeBtn = document.getElementById("downlode-resume-btn");
 
 resumeDownlodeBtn.addEventListener("click",()=>{
-  console.log("You got the Ayush resume.")
+  console.log("You got the Prajna's resume.")
 })

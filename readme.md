@@ -7,6 +7,7 @@ This portfolio is designed to showcase my background, skills, education, and sel
 
 ---
 
+
 ## 🧾 About
 
 This is a multi-page static web portfolio created using **HTML**, **CSS**, **JavaScript**, and **Tailwind CSS**.
